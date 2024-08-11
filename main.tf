@@ -1,8 +1,8 @@
 resource "aws_s3_bucket" "examples321" {
-  bucket = "shubham-bucket"
+  bucket = "shubham123bucketsd"
 
   tags = {
-    Name        = "My bucket"
+    Name        = " this is My buckets"
     Environment = "firstbucket"
   }
 }

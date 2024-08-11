@@ -1,8 +1,8 @@
-resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-test-bucket"
+resource "aws_s3_bucket" "examples321" {
+  bucket = "shubham-bucket"
 
   tags = {
     Name        = "My bucket"
-    Environment = "Dev"
+    Environment = "firstbucket"
   }
 }
